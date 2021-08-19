@@ -1,0 +1,314 @@
+
+#Home .nav-link{
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    font-size:16px;
+}
+.navbar{
+    z-index:10;
+}
+#Home .nav-link:hover{
+    color:#DA5155;
+}
+#Home .settings-icon .fas{
+    top:20%;
+    color: white;
+    background-color:black;
+    font-size:18px !important;
+    padding:9px;
+    position: fixed;
+    z-index:999;
+}
+#Home .carousel-caption{
+    top:30%;
+}
+#Home .carousel-caption h1{
+    font-size:70px;
+}
+#Home .carousel-item{
+    width: 100%;
+    height: 100vh;
+}
+#Home .fab{
+    font-size: 20px;
+    margin-top:15px;
+    padding-left:8px;
+}
+#About{
+    padding: 50px;
+    margin-top:50px;
+    margin-bottom: 50px;
+}
+ .main-cap{
+    position: relative;
+    padding:5px 0px;
+}
+ .main-cap h2{
+    font-size:40px;
+} .back-main{
+    position: absolute;
+    top:-20;
+    left:50%;
+    transform: translateX(-50%);
+    font-size:60px;
+    color: black;
+    opacity:0.2;
+    
+}
+.main-muted {
+    font-size:20px;
+    color: grey;
+}
+.bd{
+    border: 1px solid black;
+    width:3%;
+    margin: auto;
+    transition: all 0.5s;
+}
+.main-cap:hover .bd{
+    width:5%;
+}
+.progress-bar{
+    background-color: #CE4848;
+     border-radius:10px;
+}
+.progress{
+    height:4px;
+    background-color: #EEEEEE;
+   
+}
+.cent-cont1{
+    width:90%;
+    margin: auto;
+}
+.cent-cont1 p{
+    color:#666;
+}
+.main-color{
+    color: #886B83;
+}
+#team{
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+.teams{
+    overflow: hidden;
+}
+.img-mem{
+    overflow: hidden;
+    position: relative;
+}
+.member{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    left: 0;
+    background-color: red;
+    opacity:0;
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.teams img{
+    transition: all 0.5s;
+    overflow: hidden;
+}
+.member .fab{
+    color: white;
+}
+.teams:hover .member{
+    opacity:0.6;
+}
+.teams:hover .text-mem h3{
+    color: red;
+}
+.teams h3{
+    font-size:18px;
+}
+.teams:hover img{
+    transform:scale(1.2);
+}
+.teams p{
+    color: red;
+}
+.text-mem{
+    padding:20px;
+}
+.cent-cont2{
+    padding-top:50px;
+    width:80%;
+    margin: auto;
+}
+.cap2{
+    font-size:40px;
+}
+.cont-btn{
+    background-color: #f25454;
+    border: 2px solid #f25454;
+    border-radius:5px;
+    color: white;
+    padding:5px 20px;
+}
+#services{
+    background-color: #FAFAFA;
+    padding-top: 50px;
+}
+#Services .fas,.far{
+    font-size:25px;
+    color: #F39B9A;
+}
+#services h3{
+    font-size: 18px;
+    transition: all 0.5s;
+}
+#services p{
+    color: #666;
+}
+#services .col-md-4:hover h3{
+    color:#F36565;
+}
+.cent-cont3{
+    width:80%;
+    padding:20px;
+    margin: auto;
+}
+#contact{
+    background-color: #FAFAFA;
+    padding:50px;
+}
+#contact h4{
+    font-size:35px;
+    padding:10px 0px;
+}
+#contact .far,.fas{
+    font-size:40px;
+    color: #F39B9A;
+}
+h5{
+    transition: all 0.5s;
+}
+.h-row:hover h5{
+    color: red;
+}
+.h-row p{
+    color: #666;
+}
+#contact input{
+    padding:15px;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px #EEEEEE;
+    margin: 10px 0px;
+}
+#contact placeholder{
+    color: #E6E6E6;
+}
+#contact textarea{
+    padding:15px ;
+    border: 1px solid #EEEEEE;
+    box-shadow: 1px 1px #EEEEEE;
+    margin: 10px 0px;
+}
+.btn-2{
+    background-color: #f25454;
+    color: white;
+    border: 1px solid #f25454 ;
+    border-radius: 5px;
+    padding:10px 20px;
+    transition: all 0.5s;
+}
+.btn-2 .fas{
+    color: white;
+    font-size:18px;
+}
+.btn-2:hover{
+    background-color: #F38383;
+}
+.cent-cont4{
+    width:90%;
+    margin: auto;
+}
+#last{
+    background-image: url(../images/—Pngtree—vector\ dotted\ world\ map_1548111.jpg);
+    background-position: center center;
+    background-size: 100% 100%;
+    height: 500px;
+    position: relative;
+}
+.layer-2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity:0.9;
+    background-color: #333333;
+}
+.cent-icon{
+    margin-top:50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.last-cap{
+    color: white;
+}
+.last-cap a{
+    text-decoration: none;
+    display: block;
+    color: white;
+}
+.last-cap button{
+    background-color: transparent;
+    color: #b0b0b0;
+    border: 1px solid white;
+    margin:3px;
+    border-radius: 4px;
+}
+.last-cap{
+    width: 80%;
+    margin: auto;
+}
+.last-cap a{
+    color: #b0b0b0;
+    transition: all 0.5s;
+}
+.last-cap a:hover{
+    color:red;
+}
+.last-cap p{
+    color: #b0b0b0;
+}
+.last-cap h6{
+    font-size:20px;
+}
+footer{
+    background-color: #1A1A1A;
+    color: white;
+    padding:10px;
+}
+footer p{
+    color:#b0b0b0 ;
+}
+footer span{
+    color:white;
+}
+@media screen  and (max-width:568px) {
+    
+    .cent-cont1{
+        width: 100%;
+    }
+    .cent-cont2{
+        width: 100%;
+    }
+    .cent-cont3{
+        width:100%;
+    }
+    .cent-cont4{
+        width: 100%;
+    }
+    input{
+        width:100%;
+    }
+    #last{
+        height: 100vh;
+    }
+}
